@@ -5,6 +5,7 @@ metadata:
   description: Demo repository for Dagster
   annotations:
     github.com/project-slug: 'sarafonseca-123/dagster-demo'
+    backstage.io/techdocs-ref: value
 spec:
   type: website
   lifecycle: production
