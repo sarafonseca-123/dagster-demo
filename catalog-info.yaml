@@ -9,5 +9,5 @@ spec:
   type: service
   lifecycle: production
   system: data-platform
-  owner: team:default/data-platform-core
+  owner: team:data-platform-core
   
