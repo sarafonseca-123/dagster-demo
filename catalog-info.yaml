@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dagster-demo
-  description: Demo repository for Dagster
+  name: data-ingestion-service
+  description: Jusbrasil's Data Ingestion Framework (a.k.a. Poseidon), it makes easier to collect and integrate data from different data sources and disperse them to any sink
   annotations:
-    github.com/project-slug: 'sarafonseca-123/dagster-demo'
+    github.com/project-slug: 'jusbrasil/data-ingestion-service'
 spec:
   type: service
   lifecycle: production
   system: data-platform
   owner: data-platform-core
-  
