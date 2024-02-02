@@ -5,6 +5,11 @@ metadata:
   description: Demo repository for Dagster
   annotations:
     github.com/project-slug: 'sarafonseca-123/dagster-demo'
+  tags: [dagster, data-platform, orchestration]
+  links:
+    - url: https://dashboard.example.com
+      title: Dashboard - Dagster Monitoring
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
